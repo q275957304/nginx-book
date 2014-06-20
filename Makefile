@@ -30,11 +30,7 @@ help:
 	@echo "  text       to make text files"
 	@echo "  man        to make manual pages"
 	@echo "  changes    to make an overview of all changed/added/deprecated items"
-	@echo "  linkcheck  to check all external links for integrity"
-	@echo "  doctest    to run all doctests embedded in the documentation (if enabled)"
-
-clean:
-	-rm -rf $(BUILDDIR)/*
+	@echo "  linkcheck  to check all external links for inte  
 
 html:
 	$(SPHINXBUILD) -b html $(ALLSPHINXOPTS) $(BUILDDIR)/html
